@@ -1,10 +1,10 @@
 # Projeto
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.6.
+Este projeto foi gerado usando o [Angular CLI](https://github.com/angular/angular-cli) versão 20.3.6.
 
-## Development server
+## Servidor de desenvolvimento
 
-To start a local development server, run:
+Para iniciar um servidor de desenvolvimento local, execute:
 # Projeto Perfumaria
 
 Este repositório contém o front-end em Angular que consome uma API de perfumes (backend em Spring Boot). O backend está sendo executado via IntelliJ usando Maven.
@@ -96,24 +96,7 @@ Use o Postman para cadastrar os perfumes:
 3. Se a requisição falhar por CORS, verifique se o `@CrossOrigin` está correto no backend.
 4. Se a requisição retornar 200 mas os cards não aparecem, abra o Console (F12) e confira erros JavaScript.
 
-## Notas finais
-- Se quiser alternar entre um servidor fake (json-server) e o backend Spring Boot, ajuste apenas a `API_URL` no `PerfumeService`.
-- Se precisar, eu posso aplicar a alteração automática do `API_URL` no frontend para `http://localhost:8080/perfumes`.
-
----
-Se quiser que eu crie ou atualize este `README.md` no repositório, confirm e eu aplico. Se preferir, copie e cole o conteúdo no seu arquivo local.
-
 ## Captura de tela
 
-Incluí uma captura de tela do projeto como exemplo. Para que ela apareça no README, copie o arquivo de imagem para o repositório no caminho abaixo:
-
-```
-docs/screenshots/Projeto-Perfumaria.png
-```
-
-Em seguida o README exibirá a imagem automaticamente. Exemplo de markdown que será usado:
-
-```markdown
-![Projeto Perfumaria](docs/screenshots/Projeto-Perfumaria.png)
-```
+![Captura de tela do Projeto Perfumaria](https://github.com/MariaAlineMees/API-Perfumes/blob/main/ng-consumer/Captura%20de%20tela%20Projeto%20Perfumaria.png)
 
