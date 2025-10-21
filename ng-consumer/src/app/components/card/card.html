@@ -1,0 +1,25 @@
+<div class="card-produto">
+    
+   
+    <div class="card-image-wrapper">
+        <img 
+            [src]="dados?.img" 
+            [alt]="'Foto do perfume ' + dados?.nome" 
+            class="foto"
+            (error)="handleImageError($event)"
+        >
+    </div>
+
+    <div class="infos">
+        <h3 class="nome">{{ dados?.nome }}</h3>
+        <p class="marca">{{ dados?.marca }}</p>
+        <p class="nacionalidade">Origem: {{ dados?.nacionalidade }}</p>
+    </div>
+
+    <div class="card-footer">
+        <!-- Pipe 'number' para formatar o preço com duas casas decimais -->
+        <span class="preco">R$ {{ dados?.preco | number:'1.2-2' }}</span>
+        <button class="detalhes-btn">Ver Detalhes</button>
+    </div>
+
+</div>
